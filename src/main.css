@@ -1,0 +1,84 @@
+/* main.css */
+
+/* Styl dla całej aplikacji */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Kontener na główną stronę */
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  /* Styl nawigacji */
+  nav {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ffd700; /* Złoty kolor po najechaniu */
+  }
+  
+  /* Styl dla obrazka w galerii */
+  .kot-img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .kot-img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Styl dla strony głównej */
+  .home {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .home h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
